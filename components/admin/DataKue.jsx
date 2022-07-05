@@ -41,9 +41,9 @@ const DataKue = ({ data }) => {
               <td>
                 <div className="d-flex justify-content-between">
                   <Link
-                    href={`/admin/updatemahasiswa?nim=${kue.kode}
+                    href={`/admin/updatekue?kode=${kue.kode}
                               &nama=${kue.nama}&harga=${kue.harga}
-                              &expired=${mhs.expired}`}
+                              &expired=${kue.expired}`}
                   >
                     <a>Edit</a>
                   </Link>
